@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hackathon/EmptyPage.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:hackathon/showpage.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -82,7 +83,7 @@ class _MyAppState extends State<MyApp> {
                                           Navigator.push(
                                             builderContext,
                                             MaterialPageRoute(
-                                                builder: (context) => DetailScreen()),
+                                                builder: (context) => EmptyPage()),
                                           );
                                         },
                                         child: Padding(
@@ -229,18 +230,27 @@ class _MyAppState extends State<MyApp> {
                                   ),
                                 ),
                               ),
-                              GestureDetector(
-                                  onTap: () {
-                                    print("bye");
-                                  },
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(top:10.0),
-                                    child: Image.asset(
-                                      'assets/images/navigation_arrow.png',
-                                      width: 15,
-                                      height: 15,
-                                    ),
-                                  )),
+                              Builder(
+                                  builder: (BuildContext builderContext) {
+                                    return GestureDetector(
+                                        onTap: () {
+                                          print("bye");
+                                          Navigator.push(
+                                            builderContext,
+                                            MaterialPageRoute(
+                                                builder: (context) => EmptyPage()),
+                                          );
+                                        },
+                                        child: Padding(
+                                          padding:
+                                          const EdgeInsets.only(top: 10.0),
+                                          child: Image.asset(
+                                            'assets/images/navigation_arrow.png',
+                                            width: 15,
+                                            height: 15,
+                                          ),
+                                        ));
+                                  }),
                             ],
                           ),
                         ),
@@ -375,18 +385,27 @@ class _MyAppState extends State<MyApp> {
                                   ),
                                 ),
                               ),
-                              GestureDetector(
-                                  onTap: () {
-                                    print("bye");
-                                  },
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(top:10.0),
-                                    child: Image.asset(
-                                      'assets/images/navigation_arrow.png',
-                                      width: 15,
-                                      height: 15,
-                                    ),
-                                  )),
+                              Builder(
+                                  builder: (BuildContext builderContext) {
+                                    return GestureDetector(
+                                        onTap: () {
+                                          print("bye");
+                                          Navigator.push(
+                                            builderContext,
+                                            MaterialPageRoute(
+                                                builder: (context) => EmptyPage()),
+                                          );
+                                        },
+                                        child: Padding(
+                                          padding:
+                                          const EdgeInsets.only(top: 10.0),
+                                          child: Image.asset(
+                                            'assets/images/navigation_arrow.png',
+                                            width: 15,
+                                            height: 15,
+                                          ),
+                                        ));
+                                  }),
                             ],
                           ),
                         ),
