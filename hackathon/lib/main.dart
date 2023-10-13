@@ -5,13 +5,22 @@ import 'package:percent_indicator/percent_indicator.dart';
 import 'package:hackathon/showpage.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-void main() {
+import 'DetailScreen.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initialization(null);
+
   runApp(MyApp());
 }
 
 class MyApp extends StatefulWidget {
   @override
   State<MyApp> createState() => _MyAppState();
+}
+
+Future initialization(BuildContext? context) async{
+  await Future.delayed(const Duration(seconds: 4));
 }
 
 class _MyAppState extends State<MyApp> {
@@ -65,18 +74,27 @@ class _MyAppState extends State<MyApp> {
                                   ),
                                 ),
                               ),
-                              GestureDetector(
-                                  onTap: () {
-                                    print("bye");
-                                  },
-                                  child: Padding(
-                                    padding: const EdgeInsets.only(top:10.0),
-                                    child: Image.asset(
-                                      'assets/images/navigation_arrow.png',
-                                      width: 15,
-                                      height: 15,
-                                    ),
-                                  )),
+                              Builder(
+                                  builder: (BuildContext builderContext) {
+                                    return GestureDetector(
+                                        onTap: () {
+                                          print("bye");
+                                          Navigator.push(
+                                            builderContext,
+                                            MaterialPageRoute(
+                                                builder: (context) => DetailScreen()),
+                                          );
+                                        },
+                                        child: Padding(
+                                          padding:
+                                          const EdgeInsets.only(top: 10.0),
+                                          child: Image.asset(
+                                            'assets/images/navigation_arrow.png',
+                                            width: 15,
+                                            height: 15,
+                                          ),
+                                        ));
+                                  }),
                             ],
                           ),
                         ),

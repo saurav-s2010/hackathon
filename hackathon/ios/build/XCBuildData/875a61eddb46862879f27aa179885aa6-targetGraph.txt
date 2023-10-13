@@ -1,0 +1,14 @@
+Target dependency graph (5 targets)
+Flutter in Pods, no dependencies
+flutter_native_splash in Pods, depends on:
+Flutter in Pods (explicit)
+path_provider_foundation in Pods, depends on:
+Flutter in Pods (explicit)
+Pods-Runner in Pods, depends on:
+Flutter in Pods (explicit)
+flutter_native_splash in Pods (explicit)
+path_provider_foundation in Pods (explicit)
+Runner in Runner, depends on:
+Pods-Runner in Pods (implicit dependency via file 'Pods_Runner.framework' in build phase 'Link Binary')
+flutter_native_splash in Pods (implicit dependency via options '-framework flutter_native_splash' in build setting 'OTHER_LDFLAGS')
+path_provider_foundation in Pods (implicit dependency via options '-framework path_provider_foundation' in build setting 'OTHER_LDFLAGS')

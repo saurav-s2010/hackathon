@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Modules/module.modulemap \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterEngineGroup.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/Flutter.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/flutter_native_splash/flutter_native_splash.framework/Headers/FlutterNativeSplashPlugin.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/flutter_native_splash/flutter_native_splash.framework/Modules/module.modulemap \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/flutter_native_splash/flutter_native_splash.framework/Headers/flutter_native_splash-umbrella.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/Modules/module.modulemap \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/Headers/path_provider_foundation-Swift.h \
+  /Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/Headers/path_provider_foundation-umbrella.h

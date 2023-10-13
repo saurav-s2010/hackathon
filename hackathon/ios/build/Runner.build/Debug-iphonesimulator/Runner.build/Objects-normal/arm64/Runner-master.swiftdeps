@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "d1dec2288b02d96b5df67d3eb338758467bc03c6c5a57345aad671c0c7cbe2f6"
+build_start_time: [1697214581, 565577983]
+build_end_time: [1697214582, 964116096]
+inputs:
+  "/Users/saurasingh/Downloads/Hackathon/D-Track/deloitte-hackathon/hackathon/ios/Runner/AppDelegate.swift": [1689202922, 0]
