@@ -6,14 +6,14 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:syncfusion_flutter_charts/sparkcharts.dart';
 
-class DetailScreen extends StatefulWidget {
-  const DetailScreen({super.key});
+class DetailScreen2 extends StatefulWidget {
+  const DetailScreen2({super.key});
 
   @override
-  State<DetailScreen> createState() => _DetailScreenState();
+  State<DetailScreen2> createState() => _DetailScreen2State();
 }
 
-class _DetailScreenState extends State<DetailScreen> {
+class _DetailScreen2State extends State<DetailScreen2> {
   final List<ChartData> chartData = [
     ChartData(2010, 35),
     ChartData(2011, 28),
@@ -88,13 +88,13 @@ class _DetailScreenState extends State<DetailScreen> {
                     decoration: BoxDecoration(
                         border: Border.all(width: 5, color: Colors.black),
                         color: Colors.black),
-                    child: Image.asset('assets/images/icon.png'),
+                    child: Image.asset('assets/images/pay_statement.png'),
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 20.0, top: 10),
                   child: Text(
-                    "Time Application",
+                    "Pay Statement",
                     style: GoogleFonts.openSans(
                         fontSize: 22,
                         color: Colors.white,
@@ -114,7 +114,7 @@ class _DetailScreenState extends State<DetailScreen> {
                     width: 350,
                     child: SfCartesianChart(
                         title: ChartTitle(
-                           // text: 'Downloads analysis',
+                          // text: 'Downloads analysis',
                             textStyle: GoogleFonts.openSans(
                                 fontSize: 12,
                                 color: Colors.black,
@@ -140,70 +140,70 @@ class _DetailScreenState extends State<DetailScreen> {
                 padding: const EdgeInsets.only(left:40.0,top:20,right: 40),
                 child: Container(
                     child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Icon(Icons.verified),
-                        SizedBox(width: 5),
-                        Text(
-                          'Version: 2.1.3v',
-                          style: GoogleFonts.openSans(
-                              fontSize: 16,
-                              color: Colors.black,
-                              fontWeight: FontWeight.normal,
-                              decoration: TextDecoration.none,
-                              letterSpacing: 0.5),
+                        Row(
+                          children: [
+                            Icon(Icons.verified),
+                            SizedBox(width: 5),
+                            Text(
+                              'Version: 2.1.3v',
+                              style: GoogleFonts.openSans(
+                                  fontSize: 16,
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.normal,
+                                  decoration: TextDecoration.none,
+                                  letterSpacing: 0.5),
+                            ),
+                          ],
                         ),
+                        SizedBox(height: 10),
+                        Row(children: [
+                          Icon(Icons.calendar_month),
+                          SizedBox(width: 5),
+                          Text(
+                            'Published on: 13 October 2023',
+                            style: GoogleFonts.openSans(
+                                fontSize: 16,
+                                color: Colors.black,
+                                fontWeight: FontWeight.normal,
+                                decoration: TextDecoration.none,
+                                letterSpacing: 0.5),
+                          ),
+                        ]),
+                        SizedBox(height: 10),
+                        Row(children: [
+                          Icon(Icons.home),
+                          SizedBox(width: 5),
+                          Text(
+                            'Published by: Deloitte Inc',
+                            style: GoogleFonts.openSans(
+                                fontSize: 16,
+                                color: Colors.black,
+                                fontWeight: FontWeight.normal,
+                                decoration: TextDecoration.none,
+                                letterSpacing: 0.5),
+                          )
+                        ]),
+                        SizedBox(height: 10,),
+                        Text("The main functionality of the application is to submit the time spent.The application has a link with the Expenses application to submit financial expenses.",style: GoogleFonts.openSans(
+                            fontSize: 12,
+                            color: Colors.grey.shade800,
+                            decoration: TextDecoration.none,
+                            fontWeight: FontWeight.normal
+                        ),)
                       ],
-                    ),
-                    SizedBox(height: 10),
-                    Row(children: [
-                      Icon(Icons.calendar_month),
-                      SizedBox(width: 5),
-                      Text(
-                        'Published on: 13 October 2023',
-                        style: GoogleFonts.openSans(
-                            fontSize: 16,
-                            color: Colors.black,
-                            fontWeight: FontWeight.normal,
-                            decoration: TextDecoration.none,
-                            letterSpacing: 0.5),
-                      ),
-                    ]),
-                    SizedBox(height: 10),
-                    Row(children: [
-                      Icon(Icons.home),
-                      SizedBox(width: 5),
-                      Text(
-                        'Published by: Deloitte Inc',
-                        style: GoogleFonts.openSans(
-                            fontSize: 16,
-                            color: Colors.black,
-                            fontWeight: FontWeight.normal,
-                            decoration: TextDecoration.none,
-                            letterSpacing: 0.5),
-                      )
-                    ]),
-                    SizedBox(height: 10,),
-                    Text("The main functionality of the application is to submit the time spent.The application has a link with the Expenses application to submit financial expenses.",style: GoogleFonts.openSans(
-                      fontSize: 12,
-                      color: Colors.grey.shade800,
-                      decoration: TextDecoration.none,
-                      fontWeight: FontWeight.normal
-                    ),)
-                  ],
-                )),
+                    )),
               ),
               Padding(
                 padding: const EdgeInsets.only(top:50.0),
                 child: Text('Want to know more? Click here',
-                style: GoogleFonts.openSans(
-                  fontSize: 14,
-                  color: Colors.blue,
-                  decoration: TextDecoration.none
-                ),),
+                  style: GoogleFonts.openSans(
+                      fontSize: 14,
+                      color: Colors.blue,
+                      decoration: TextDecoration.none
+                  ),),
               )
             ],
           )
